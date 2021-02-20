@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body id="contact">
+    <div id="form">
+    <h1 class="page-heading">Registration</h1>
+    <h2 class="page-subheading">Fill out the form</h2>
+   
+        <form action="process.php">
+            <p>
+                <label for="name"> Name: </label>
+                <input type="text" placeholder="Your Name">
+
+            </p>
+            <p>
+                <label for="surame"> Surname:
+                    <input type="text" placeholder="Your Surname">
+                </label>
+            </p>
+            <p>
+                <label for="birthday"> Birthday:
+                    <input type="date" placeholder="Your Birthdate">
+                </label>
+            </p>
+            <p>
+                <label for="email"> E-mail:
+                    <input type="email" placeholder="Your Email">
+                </label>
+            </p>
+            <p>
+
+                <label for="file"> Cover Letter:
+                    <input type="file">
+                </label>
+            </p>
+            <p>
+                <label for="gender" placeholder="Select Gender"> Gender: </label>
+                    <select class="input"> 
+                        <OPTION Value="Male">Male</OPTION>
+                        <OPTION Value="Female">Female</OPTION>
+                        <OPTION Value="Other">Other</OPTION>
+    
+                    </select>
+            </p>
+            <p>
+                <label for="name"> Subject: 
+                <input type="text" name="subject" placeholder="Enter Subject">
+            </label>
+            </p>
+            <p>
+                <label for="message"> Message:
+                    <textarea class="input" name="message" rows="5" placeholder="Enter Your Message">
+                   </textarea>
+                    </label>
+                </p>
+            <p>
+                <label for="password"> Password:
+                    <input type="password" placeholder="Write a Password">
+                </label>
+            </p>
+            <p>
+                <label for="password"> Re-enter Password:
+                    <input type="password" placeholder="Re-Enter the Password">
+                </label>
+            </p>
+            <p>
+                <label for="Submit"> Submit:
+                    <input type="submit">
+                </label>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>

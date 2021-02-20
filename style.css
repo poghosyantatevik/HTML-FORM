@@ -1,0 +1,42 @@
+* {
+
+ box-sizing: border-box;
+}
+
+
+#contact #form {
+text-align: left;
+width: 500px;
+border: 2px solid black;
+padding: 10px;
+margin: 0 auto;
+
+}
+
+ .page-heading {
+
+ background-color: black;
+ color: white;
+ text-align: center;
+ padding: 5px;
+}
+
+.page-subheading {
+
+ background-color: rgb(78, 80, 82);
+ color: white;
+ padding: 4px;
+
+}
+
+#contact #form input{
+
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+#form .input {
+    width: 100%;
+    display: block;
+}
